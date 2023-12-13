@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Katalog: View {
+struct AssetView: View {
     let title: String
     let description: String
     let lokasi: String
