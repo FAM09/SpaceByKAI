@@ -14,6 +14,16 @@
 		35FDFD172B26032900B5D782 /* MitraAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FDFD162B26032900B5D782 /* MitraAppsTests.swift */; };
 		35FDFD212B26032900B5D782 /* MitraAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FDFD202B26032900B5D782 /* MitraAppsUITests.swift */; };
 		35FDFD232B26032900B5D782 /* MitraAppsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FDFD222B26032900B5D782 /* MitraAppsUITestsLaunchTests.swift */; };
+		35FDFD302B2877E600B5D782 /* Katalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FDFD2F2B2877E600B5D782 /* Katalog.swift */; };
+		35FDFD322B28A6A100B5D782 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FDFD312B28A6A100B5D782 /* Data.swift */; };
+		35FDFD342B28C82600B5D782 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FDFD332B28C82500B5D782 /* Filter.swift */; };
+		35FDFD362B293DE300B5D782 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FDFD352B293DE300B5D782 /* Search.swift */; };
+		35FDFD382B293E8C00B5D782 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FDFD372B293E8C00B5D782 /* Sort.swift */; };
+		35FDFD3A2B2940E700B5D782 /* FunctionControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FDFD392B2940E700B5D782 /* FunctionControl.swift */; };
+		35FDFD3C2B2984FA00B5D782 /* iconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FDFD3B2B2984FA00B5D782 /* iconButton.swift */; };
+		35FDFD3E2B29A0AA00B5D782 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FDFD3D2B29A0AA00B5D782 /* HeaderView.swift */; };
+		35FDFD402B29A15F00B5D782 /* KatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FDFD3F2B29A15F00B5D782 /* KatalogView.swift */; };
+		35FDFD422B29B29500B5D782 /* ObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FDFD412B29B29500B5D782 /* ObjectModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,16 @@
 		35FDFD1C2B26032900B5D782 /* MitraAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MitraAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FDFD202B26032900B5D782 /* MitraAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MitraAppsUITests.swift; sourceTree = "<group>"; };
 		35FDFD222B26032900B5D782 /* MitraAppsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MitraAppsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		35FDFD2F2B2877E600B5D782 /* Katalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Katalog.swift; sourceTree = "<group>"; };
+		35FDFD312B28A6A100B5D782 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		35FDFD332B28C82500B5D782 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		35FDFD352B293DE300B5D782 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		35FDFD372B293E8C00B5D782 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
+		35FDFD392B2940E700B5D782 /* FunctionControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionControl.swift; sourceTree = "<group>"; };
+		35FDFD3B2B2984FA00B5D782 /* iconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iconButton.swift; sourceTree = "<group>"; };
+		35FDFD3D2B29A0AA00B5D782 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		35FDFD3F2B29A15F00B5D782 /* KatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatalogView.swift; sourceTree = "<group>"; };
+		35FDFD412B29B29500B5D782 /* ObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +118,16 @@
 				35FDFD072B26032500B5D782 /* ContentView.swift */,
 				35FDFD092B26032800B5D782 /* Assets.xcassets */,
 				35FDFD0B2B26032800B5D782 /* Preview Content */,
+				35FDFD2F2B2877E600B5D782 /* Katalog.swift */,
+				35FDFD312B28A6A100B5D782 /* Data.swift */,
+				35FDFD332B28C82500B5D782 /* Filter.swift */,
+				35FDFD352B293DE300B5D782 /* Search.swift */,
+				35FDFD372B293E8C00B5D782 /* Sort.swift */,
+				35FDFD392B2940E700B5D782 /* FunctionControl.swift */,
+				35FDFD3B2B2984FA00B5D782 /* iconButton.swift */,
+				35FDFD3D2B29A0AA00B5D782 /* HeaderView.swift */,
+				35FDFD3F2B29A15F00B5D782 /* KatalogView.swift */,
+				35FDFD412B29B29500B5D782 /* ObjectModel.swift */,
 			);
 			path = MitraApps;
 			sourceTree = "<group>";
@@ -257,8 +287,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35FDFD302B2877E600B5D782 /* Katalog.swift in Sources */,
+				35FDFD342B28C82600B5D782 /* Filter.swift in Sources */,
+				35FDFD3A2B2940E700B5D782 /* FunctionControl.swift in Sources */,
 				35FDFD082B26032500B5D782 /* ContentView.swift in Sources */,
+				35FDFD422B29B29500B5D782 /* ObjectModel.swift in Sources */,
+				35FDFD402B29A15F00B5D782 /* KatalogView.swift in Sources */,
+				35FDFD3C2B2984FA00B5D782 /* iconButton.swift in Sources */,
+				35FDFD3E2B29A0AA00B5D782 /* HeaderView.swift in Sources */,
+				35FDFD362B293DE300B5D782 /* Search.swift in Sources */,
+				35FDFD382B293E8C00B5D782 /* Sort.swift in Sources */,
 				35FDFD062B26032500B5D782 /* MitraAppsApp.swift in Sources */,
+				35FDFD322B28A6A100B5D782 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -425,11 +465,14 @@
 				DEVELOPMENT_TEAM = PU53DYK86L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mitra App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,9 +480,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.faizazharim.MitraApps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,11 +500,14 @@
 				DEVELOPMENT_TEAM = PU53DYK86L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mitra App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,9 +515,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.faizazharim.MitraApps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -481,13 +533,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PU53DYK86L;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.faizazharim.MitraAppsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MitraApps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MitraApps";
 			};
 			name = Debug;
@@ -501,13 +556,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PU53DYK86L;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.faizazharim.MitraAppsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MitraApps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MitraApps";
 			};
 			name = Release;
@@ -520,12 +578,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PU53DYK86L;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.faizazharim.MitraAppsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = MitraApps;
 			};
 			name = Debug;
@@ -538,12 +600,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PU53DYK86L;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.faizazharim.MitraAppsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = MitraApps;
 			};
 			name = Release;
