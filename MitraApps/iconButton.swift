@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct iconButton: View {
+    @StateObject private var searchFilterSortController = SearchFilterSortController()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            withAnimation {
+                print("tekan")
+                searchFilterSortController.hideAllViewsExcept(searchShow: true)
+            }
+        }) {
+            Image(systemName: "magnifyingglass")
+                .frame(width: 18, height: 18)
+        }
     }
 }
 

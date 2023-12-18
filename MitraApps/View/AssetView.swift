@@ -68,7 +68,7 @@ struct AssetView: View {
             Spacer()
         }
         .background(.white)
-        .frame(width: 170, height: 270)
+        .frame(width: 180, height: 270)
         .cornerRadius(4)
         .overlay(
             RoundedRectangle(cornerRadius: 4)
@@ -80,5 +80,5 @@ struct AssetView: View {
 }
 
 #Preview {
-    Katalog(title: "RPR JL. JAWA NO.40A", description: "Rumah dinas ini adalah rumah kosong", lokasi: "Dago", area: "Bandung", luas: "1000")
+    AssetView(title: "RPR JL. JAWA NO.40A", description: "Rumah dinas ini adalah rumah kosong", lokasi: "Dago", area: "Bandung", luas: "1000")
 }

@@ -8,91 +8,39 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject private var objectModel = ObjectModel()
+    @StateObject private var searchFilterSortController = SearchFilterSortController()
+    @ObservedObject var items = ItemViewModel()
     @State private var sliderButtonOffset: CGFloat = 0
     
     var body: some View {
-        ZStack(alignment: .center) {
-            VStack(alignment: .center, content: {
-                HeaderView()
+        NavigationView {
+            ZStack(alignment: .top) {
+                VStack(alignment: .center, content: {
+                    HeaderView()
+                    
+                    KatalogView(asset: items.item)
+                        .padding(.top, -8)
+                    
+                    Spacer()
+                })
+                .padding(3.0)
+                .border(.black)
+                .background(Color(red: 0.98, green: 0.98, blue: 0.98))
+                .onTapGesture {
+                    self.searchFilterSortController.hideAllViews()
+                }
                 
-                KatalogView()
-                
-                Spacer()
-            })
-            .background(Color(red: 0.98, green: 0.98, blue: 0.98))
-            .onTapGesture {
-                objectModel.hideAllViews()
+                SearchFilterSortView()
             }
-            
-            VStack {
-                Spacer()
-                
-                if objectModel.filterShow {
-                    Filter(isTrue: $objectModel.filterShow)
-                        .transition(.moveAndScale)
-                        .offset(y: sliderButtonOffset)
-                }
-                if objectModel.searchShow {
-                    Search(isTrue: $objectModel.searchShow)
-                        .transition(.moveAndScale)
-                        .offset(y: sliderButtonOffset)
-                }
-                if objectModel.sortShow {
-                    Sort(isTrue: $objectModel.sortShow)
-                        .transition(.moveAndScale)
-                        .offset(y: sliderButtonOffset)
-                }
-                
-                HStack(alignment: .center, spacing: 16) {
-                    Button(action: {
-                        withAnimation {
-                            objectModel.hideAllViewsExcept(searchShow: true)
-                        }
-                    }) {
-                        Image(systemName: "magnifyingglass")
-                            .frame(width: 18, height: 18)
-                    }
-                    
-                    Divider()
-                        .background(Color.black)
-                        .frame(height: 42)
-                    
-                    Button(action: {
-                        withAnimation {
-                            objectModel.hideAllViewsExcept(sortShow: true)
-                        }
-                    }) {
-                        Image(systemName: "arrow.left.arrow.right")
-                            .frame(width: 18, height: 18)
-                    }
-                    
-                    Divider()
-                        .background(Color.black)
-                        .frame(height: 42)
-                    
-                    Button(action: {
-                        withAnimation {
-                            objectModel.hideAllViewsExcept(filterShow: true)
-                        }
-                    }) {
-                        Image(systemName: "slider.horizontal.3")
-                            .frame(width: 18, height: 18)
-                            .padding(.vertical, 12)
-                    }
-                }
-                .padding(.horizontal, 16)
-                .background(.white)
-                .cornerRadius(6)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 6)
-                        .inset(by: 0.5)
-                        .stroke(Color(red: 0.86, green: 0.88, blue: 0.89), lineWidth: 1)
-                )
-                .padding(.bottom, 10)
-            }
+            .border(.yellow)
+            .padding(.top, -95)
+            .padding(.bottom, 0)
         }
-        .ignoresSafeArea()
+        .border(.green)
+        .statusBar(hidden: true)
+        .onAppear{
+            self.items.fetchData()
+        }
     }
     
     

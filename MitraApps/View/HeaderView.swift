@@ -8,15 +8,14 @@
 import SwiftUI
 
 struct HeaderView: View {
-    @StateObject private var objectModel = ObjectModel()
     
     var body: some View {
         HStack(alignment: .center, content: {
             Image("LogoSpace")
                 .resizable()
                 .scaledToFit()
-                .padding(.top, -15)
-                .padding(.leading, -25)
+                .padding(0)
+                .padding(.leading, -20)
             
             Spacer()
             

@@ -9,20 +9,19 @@ import SwiftUI
 
 struct KatalogView: View {
     let columns = [GridItem(.flexible()), GridItem(.flexible())]
+    var asset: [Item]
     
     var body: some View {
         ScrollView(.vertical, content: {
             LazyVGrid(columns: columns) {
-                ForEach(Assets) { asset in
-                    AssetView(title: asset.title, description: asset.description, lokasi: asset.lokasi, area: asset.area, luas: asset.luas)
+                ForEach(asset) { asset in
+                    AssetView(title: asset.title, description: asset.description, lokasi: asset.location, area: asset.area, luas: asset.luas)
                 }
             }
         })
-        .padding(0)
-        .frame(width: 355.0, height: 580.0)
     }
 }
 
 #Preview {
-    KatalogView()
+    KatalogView(asset: Assets)
 }
