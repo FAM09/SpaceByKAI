@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		353857732B32BEB60007438D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353857722B32BEB60007438D /* LoginView.swift */; };
+		353857752B32BEDD0007438D /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353857742B32BEDD0007438D /* ItemDetailView.swift */; };
+		353857772B32CF0A0007438D /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353857762B32CF090007438D /* LoginController.swift */; };
+		353857792B32DEE50007438D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353857782B32DEE50007438D /* HomeView.swift */; };
 		35C1A5D02B30781800964671 /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C1A5CF2B30781800964671 /* ItemViewModel.swift */; };
 		35C1A5D22B3078B200964671 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C1A5D12B3078B200964671 /* Item.swift */; };
 		35C1A5D42B30848E00964671 /* SearchFilterSortController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C1A5D32B30848E00964671 /* SearchFilterSortController.swift */; };
@@ -47,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		353857722B32BEB60007438D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		353857742B32BEDD0007438D /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		353857762B32CF090007438D /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		353857782B32DEE50007438D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		35C1A5CF2B30781800964671 /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
 		35C1A5D12B3078B200964671 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		35C1A5D32B30848E00964671 /* SearchFilterSortController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilterSortController.swift; sourceTree = "<group>"; };
@@ -102,6 +110,7 @@
 			children = (
 				35C1A5CF2B30781800964671 /* ItemViewModel.swift */,
 				35C1A5D32B30848E00964671 /* SearchFilterSortController.swift */,
+				353857762B32CF090007438D /* LoginController.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -117,6 +126,9 @@
 				35FDFD3F2B29A15F00B5D782 /* KatalogView.swift */,
 				35FDFD072B26032500B5D782 /* ContentView.swift */,
 				35C1A5D52B308ABD00964671 /* SearchFilterSortView.swift */,
+				353857722B32BEB60007438D /* LoginView.swift */,
+				353857742B32BEDD0007438D /* ItemDetailView.swift */,
+				353857782B32DEE50007438D /* HomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -334,8 +346,12 @@
 				35FDFD3E2B29A0AA00B5D782 /* HeaderView.swift in Sources */,
 				35FDFD362B293DE300B5D782 /* SearchView.swift in Sources */,
 				35FDFD382B293E8C00B5D782 /* SortView.swift in Sources */,
+				353857772B32CF0A0007438D /* LoginController.swift in Sources */,
 				35FDFD062B26032500B5D782 /* MitraAppsApp.swift in Sources */,
+				353857732B32BEB60007438D /* LoginView.swift in Sources */,
+				353857752B32BEDD0007438D /* ItemDetailView.swift in Sources */,
 				35FDFD322B28A6A100B5D782 /* Data.swift in Sources */,
+				353857792B32DEE50007438D /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

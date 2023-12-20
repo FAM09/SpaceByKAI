@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct HeaderView: View {
+    @State private var isTrue = false
+    var hideLoginButton: Bool
     
     var body: some View {
         HStack(alignment: .center, content: {
@@ -19,12 +21,17 @@ struct HeaderView: View {
             
             Spacer()
             
-            Button("Login") {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+            if hideLoginButton {
+                Button("Login") {
+                    isTrue.toggle()
+                }
+                .padding(.trailing, 5.0)
+                .buttonStyle(.borderedProminent)
+                .sheet(isPresented: $isTrue, content: {
+                    LoginView()
+                })
             }
-            .padding(.trailing, 5.0)
-            .buttonStyle(.borderedProminent)
-        })
+         })
         .frame(height: 70.0)
         .background(.white)
         .overlay(
@@ -36,5 +43,5 @@ struct HeaderView: View {
 }
 
 #Preview {
-    HeaderView()
+    HeaderView(hideLoginButton: false)
 }

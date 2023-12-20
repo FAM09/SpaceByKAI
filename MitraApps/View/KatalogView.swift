@@ -15,7 +15,12 @@ struct KatalogView: View {
         ScrollView(.vertical, content: {
             LazyVGrid(columns: columns) {
                 ForEach(asset) { asset in
-                    AssetView(title: asset.title, description: asset.description, lokasi: asset.location, area: asset.area, luas: asset.luas)
+                    NavigationLink {
+                        ItemDetailView()
+                    } label: {
+                        AssetView(title: asset.title, description: asset.description, lokasi: asset.location, area: asset.area, luas: asset.luas)
+                    }
+                    .buttonStyle(PlainButtonStyle())
                 }
             }
         })
